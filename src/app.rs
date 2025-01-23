@@ -1,5 +1,7 @@
-use crate::i18n::*;
 use leptos::prelude::*;
+use leptos_i18n::t;
+
+use crate::i18n::{use_i18n, I18nContextProvider, Locale};
 
 #[component]
 #[allow(non_snake_case)]
